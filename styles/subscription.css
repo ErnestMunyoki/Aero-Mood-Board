@@ -1,0 +1,176 @@
+body {
+    font-family: Arial, sans-serif;
+    background: hsla(62, 100%, 27%, 0.393);
+    margin: 0;
+    padding: 0;
+}
+.sub-nav{
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.sub-nav ul{
+    list-style: none;
+    margin: 20px;
+    padding: 10px;
+}
+.sub-nav li{
+    display: inline;
+    margin:  50px;
+}
+.sub-nav a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}   
+.subscription{
+    max-width: 800px;
+    margin: 3px auto;
+    padding: 2px;
+    background: #fff;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.plan-buttons {
+    display: flex;
+    gap: 1em;
+    margin: 2px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.plan-buttons button {
+    padding: 0.7px 1.2px;
+    border: none;
+    border-radius: 5px;
+    background: #eee;
+    cursor: pointer;
+    font-weight: bold;
+}
+.plan-details {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.plan-card {
+    display: none;
+}
+.plan-card h2 {
+    font-size: medium;
+    margin-bottom: 0.5px;
+}
+
+.price {
+    font-size: medium;
+    font-weight: bold;
+    margin-bottom: 1px;
+}
+
+.plan-card ul {
+    list-style: none;
+    padding: 0px;
+    margin: 1px ;
+}
+
+.plan-card ul li {
+    margin-bottom: 0.5px;
+}
+
+.subscribe-btn {
+    padding: 0.8px 2px;
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: medium;
+    cursor: pointer;
+}
+h1{
+    text-align: center;
+}
+.site-footer {
+    background-color: #222;
+    color: #fff;
+    padding: 3px;
+    font-size: small;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-columns {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 2em;
+}
+
+.footer-column h4 {
+    font-size: 1.1rem;
+    margin-bottom: 1em;
+    color: #fff;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 0.6em;
+}
+
+.footer-column ul li a {
+    text-decoration: none;
+    color: #bbb;
+    transition: color 0.3s;
+}
+
+.footer-column ul li a:hover {
+    color: #fff;
+}
+
+.social-links {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5em;
+}
+
+.subscribe-form {
+    margin-top: 1em;
+}
+
+.subscribe-form input {
+    width: 100%;
+    padding: 0.6em;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 0.5em;
+}
+
+.subscribe-form button {
+    width: 100%;
+    padding: 0.6em;
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.subscribe-form button:hover {
+    background-color: #005bb5;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 2em;
+    font-size: 0.85rem;
+    color: #888;
+}
